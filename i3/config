@@ -117,8 +117,8 @@ mode "resize" {
 	# Pressing right will grow the window’s width.
 	# Pressing up will shrink the window’s height.
 	# Pressing down will grow the window’s height.
-	bindsym j resize shrink width         5 px or 5 ppt
-	bindsym k resize grow width           5 px or 5 ppt
+	bindsym j resize grow width           5 px or 5 ppt
+	bindsym k resize shrink width         5 px or 5 ppt
 	bindsym l resize shrink height        5 px or 5 ppt
 	bindsym semicolon resize grow height  5 px or 5 ppt
 
@@ -164,10 +164,11 @@ bar {
 }
 
 for_window [class="^.*"] border pixel 2
-gaps inner 10
+gaps inner 15
 
 bindsym --release Print exec "scrot -u '/home/m1ksu/Images/Screenshots/%b%d::%H:%M:%S.png'"
 bindsym --release $mod+Print exec "scrot -m '/home/m1ksu/Images/Screenshots/%b%d::%H:%M:%S.png'"
 bindsym --release $mod+Shift+Print exec "scrot -m '/home/m1ksu/Images/Screenshots/%b%d::%H:%M:%S.png -e gimp'"
 
 exec_always --no-startup-id feh --bg-fill ~/Images/wallpaper.jpg
+exec_always --no-startup-id compton -b --config ~/.config/compton.conf
