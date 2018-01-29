@@ -1,6 +1,10 @@
-# Modified "kardan" theme, the line inspired by u/jaagr's Space Cowboy rice.
+# Simple theme based on my old zsh settings.
 
-PROMPT='———  '
+function get_host {
+	echo '@'$HOST
+}
+
+PROMPT='‒‒‐ '
 RPROMPT='%~$(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%} X%{$reset_color%}"

@@ -7,11 +7,11 @@ export ZSH=/home/m1ksu/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="kardan"
+ZSH_THEME="cardan"
 #1
 alias wifihome="sudo netctl stop-all && sudo ip link set wlp3s0 down && sudo netctl start Koti_4A95"
 alias wifiphone="sudo netctl stop-all && sudo ip link set wlp3s0 down && sudo netctl start Wileyfox_Swift"
-alias rez="source ~/.zshrc && clear"
+alias rez="clear && source ~/.zshrc"
 alias vi="vim"
 
 alias ..="cd .."
