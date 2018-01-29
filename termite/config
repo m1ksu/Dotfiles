@@ -16,8 +16,8 @@ scrollback_lines = 5000
 search_wrap = true
 
 # transparency
-transparency = 0.0
-pseudo_transparency = false
+# transparency = 0.5
+# pseudo_transparency = true
 
 # cursor
 cursor_blink = system
@@ -29,7 +29,7 @@ cursor_shape = block
 foreground      = #c5c8c6
 foreground_bold = #c5c8c6
 cursor          = #c5c8c6
-background      = #1c1c1c
+background      = rgba(28, 28, 28, 0.95)
 
 # black
 color0  = #1d1f21
