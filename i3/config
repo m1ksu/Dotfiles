@@ -24,7 +24,6 @@ bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
-
 # start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
 
@@ -172,3 +171,4 @@ bindsym --release $mod+Shift+Print exec "scrot -m '/home/m1ksu/Images/Screenshot
 
 exec_always --no-startup-id feh --bg-fill ~/Images/wallpaper.jpg
 exec_always --no-startup-id compton -b --config ~/.config/compton.conf
+exec_always --no-startup-id xrdb ~/.Xresouces
