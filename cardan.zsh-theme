@@ -1,11 +1,7 @@
-# Simple theme based on my old zsh settings.
+# m1ksu's theme
 
-function get_host {
-	echo '@'$HOST
-}
-
-PROMPT='‒‒‐ '
-RPROMPT='%~$(git_prompt_info)'
+PROMPT='[%{$fg[yellow]%}%~%{$reset_color%}]$(git_prompt_info) '
+RPROMPT=''
 
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%} X%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_PREFIX=" ("

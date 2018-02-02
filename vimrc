@@ -1,21 +1,26 @@
 execute pathogen#infect()
 
+set nocompatible " Idk
+set noswapfile " No .swp files!
+
+" Colortheme
 syntax on
-colorscheme minimalist
+let g:nord_italic = 1
+colo nord
 
-set noswapfile
-
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1 " Make Powerline icons work
+set noshowmode " Disable the old "INSERT"
 
 let python_highlight_all = 1
 
-set noshowmode
 set relativenumber
 
+" Indentation
 set tabstop=4
 set shiftwidth=4
 set autoindent
 
+" Better binds
 nmap o o<ESC>
 nmap O O<ESC>
 
@@ -23,7 +28,6 @@ map <F1> "+p
 map <F2> "+y
 
 " Syntastic
-
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*

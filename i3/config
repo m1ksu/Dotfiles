@@ -137,10 +137,10 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # f = focused, i = inactive, t = text (active, dark), u = text (inactive, light)
-set $f #00d7af
-set $i #00211b
-set $t #000000
-set $u #ffffff
+set $f #88C0D0
+set $i #4C566A
+set $t #2E3440
+set $u #ECEFF4
 
 client.focused          $f $f $t $f $f
 client.focused_inactive $i $i $u $i $i
@@ -154,7 +154,7 @@ client.background       #ffffff
 # finds out, if available)
 bar {
 	status_command i3blocks
-	height 22
+	height 25
 	colors {
 		focused_workspace   $i $f $t
 		active_workspace    $i $i $u

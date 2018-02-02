@@ -1,11 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/etc'
-let g:netrw_dirhist_2='/etc/gtk-2.0'
-let g:netrw_dirhist_3='/etc'
-let g:netrw_dirhist_4='/etc/gtk-2.0'
-let g:netrw_dirhist_5='/etc'
-let g:netrw_dirhist_6='/home/m1ksu/Code/C++'
-let g:netrw_dirhist_7='/home/m1ksu/.dotfiles/i3'
-let g:netrw_dirhist_8='/usr/lib/i3blocks'
-let g:netrw_dirhist_9='/home/m1ksu/.config/termite'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/m1ksu/.oh-my-zsh/.git'
+let g:netrw_dirhist_2='/home/m1ksu/.oh-my-zsh/custom'
+let g:netrw_dirhist_3='/home/m1ksu/.oh-my-zsh/themes'
+let g:netrw_dirhist_4='/home/m1ksu/.ncmpcpp'
+let g:netrw_dirhist_5='/home/m1ksu/.dotfiles/gtk-3.0'
