@@ -11,8 +11,6 @@ colo nord
 let g:airline_powerline_fonts = 1 " Make Powerline icons work
 set noshowmode " Disable the old "INSERT"
 
-let python_highlight_all = 1
-
 set relativenumber
 
 " Indentation
